@@ -1,7 +1,7 @@
-package test
+package testing
 
 import (
-	"convert"
+	"convert/convert"
 	"testing"
 )
 
