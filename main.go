@@ -1,10 +1,10 @@
 package main
 
 import (
+	"convert/convert"
 	"fmt"
 	"log"
 	"os"
-	"strings"
 )
 
 func main() {
@@ -21,23 +21,6 @@ func main() {
 		input = string(data)
 	}
 	
+	fmt.Println(convert.Convert(input))
 	
-	replaces := map[string]string {
-		"+": "👆",
-		"-": "👇",
-		">": "👉",
-		"<": "👈",
-		".": "🥺",
-		",": "😳",
-		"?": "🥴",
-		"[": "😒",
-		"]": "😡",
-	}
-	
-	for key, value := range replaces {
-		input = strings.Replace(input, key, value , -1)
-	}
-	
-	
-	fmt.Println(input)
 }

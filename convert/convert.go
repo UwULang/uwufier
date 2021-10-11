@@ -1,13 +1,10 @@
-package main
+package convert
 
 import (
-	"fmt"
 	"strings"
 )
 
-func main() {
-	input := ">++++++++++++++++++++++++++++++++++++++++++++----.>..,,[[]]]]]?><<"
-	
+func Convert(input string) (output string) {
 	replaces := map[string]string {
 		"+": "👆",
 		"-": "👇",
@@ -24,6 +21,5 @@ func main() {
 		input = strings.Replace(input, key, value , -1)
 	}
 	
-	
-	fmt.Println(input)
+	return input
 }
