@@ -1,11 +1,13 @@
-package convert
+package main
 
 import (
 	"fmt"
 	"strings"
 )
 
-func convert(input := ">++++++++++++++++++++++++++++++++++++++++++++----.>..,,[[]]]]]?><<") {
+func main() {
+	input := ">++++++++++++++++++++++++++++++++++++++++++++----.>..,,[[]]]]]?><<"
+	
 	replaces := map[string]string {
 		"+": "👆",
 		"-": "👇",
