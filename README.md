@@ -2,7 +2,7 @@
 
 ![badge](https://github.com/Zeyu-Li/uwuifier/workflows/Test/badge.svg)
 
-A bf to [UwULang](https://github.com/Zeyu-Li/uwulang) converter 
+A bf to [UwULang](https://github.com/Zeyu-Li/uwulang) converter/transpiler 
 
 
 
