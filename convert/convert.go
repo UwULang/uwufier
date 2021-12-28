@@ -15,6 +15,8 @@ func Convert(input string) (output string) {
 		"?": "🥴",
 		"[": "😒",
 		"]": "😡",
+		"\n": "",
+		" ": "",
 	}
 	
 	for key, value := range replaces {
