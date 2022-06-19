@@ -1,6 +1,6 @@
 # UwUfier 🥺👉👈
 
-![badge](https://github.com/Zeyu-Li/uwuifier/workflows/Test/badge.svg)
+![badge](https://github.com/UwULang/uwufier/actions/workflows/test.yml/badge.svg)
 
 A bf to [UwULang](https://github.com/Zeyu-Li/uwulang) converter/transpiler 
 
